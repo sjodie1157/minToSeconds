@@ -8,25 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="minInput">
-        <h3>
-            Minuits
-        </h3>
-        <input type="number" name="Minuits" id="min">
-    </div>
-    <div class="secInput">
-        <h3>
-            Seconds
-        </h3>
-        <input type="number" name="seconds" id="sec">
-    </div>
-    <div class="button">
-        <button type="button">
-            convert
-        </button>
-    </div>
-    <div class="output">
-        <label for="output" data-output>Seconds</label>
+    <div class="container">
+        <div class="box">
+            <div class="minInput">
+                <h3>
+                    Minutes To Seconds
+                </h3>
+                <input type="number" name="Minuits" id="min">
+            </div>
+            <div class="button">
+                <button type="button" data-btn>
+                convert
+                </button>
+            </div>
+            <div class="output">
+                <label for="output" id="output" >Seconds</label>
+            </div>
+        </div>
     </div>
     <script src="./script/code.js"></script>
 </body>
